@@ -21,7 +21,7 @@ connect_voyix_dev_dedicated = pyodbc.connect(
 connect_databricks_UAT = sql.connect(
     server_hostname='adb-932452520638701.1.azuredatabricks.net',
     http_path='/sql/1.0/warehouses/4f02570ab349ce2c',
-    access_token='dapi718c9a9aeb0e3b8b6d795931d9585123-3'
+    access_token='access_token_key'
 )
 
 # Get user input
